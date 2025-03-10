@@ -3,16 +3,19 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "start": "astro dev",
+    "astro": "astro",
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs"
   },
   "dependencies": {
     "@astrojs/db": "^0.14.8",
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/react": "^4.2.1",
+    "@astrojs/ts-plugin": "^1.10.4",
     "@auth/core": "^0.37.4",
+    "@deno/astro-adapter": "^0.2.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "astro": "^5.4.2",
