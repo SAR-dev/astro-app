@@ -21,7 +21,8 @@
     "astro": "^5.4.2",
     "auth-astro": "^4.2.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.12",
